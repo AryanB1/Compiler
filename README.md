@@ -1,9 +1,4 @@
 # Custom Language Interpreter
-
-## Overview
-
-This project aims to create a custom interpreter for a simple programming language. The interpreter is designed to tokenize, parse, and interpret input code written in the custom language, allowing users to execute basic arithmetic operations, handle conditional statements, and perform variable assignments.
-
 ## Features
 
 - **Tokenization**: The provided code includes a `Lexer` class responsible for tokenizing input text. It identifies different types of tokens such as numbers, arithmetic operators, variables, boolean operators, and control keywords like "if" and "while".
@@ -18,20 +13,11 @@ This project aims to create a custom interpreter for a simple programming langua
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/custom-language-interpreter.git`
+1. Clone the repository: `git clone https://github.com/AryanB1/custom-language-interpreter.git`
 2. Navigate to the project directory: `cd custom-language-interpreter`
 3. Run the interpreter: `python main.py`
 
-## Usage
-
-1. Launch the interpreter using `python main.py`.
-2. Input code using the custom language syntax.
-3. The interpreter will tokenize, parse, and execute the provided code.
-4. The output of executed expressions and statements will be displayed.
-
-## Custom Language Syntax
-
-The custom language supports the following constructs:
+## Syntax
 
 - Arithmetic expressions: `2 + 3 * 4`
 - Variable assignment: `make x = 5`
